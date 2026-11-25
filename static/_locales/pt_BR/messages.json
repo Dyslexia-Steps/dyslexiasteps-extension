@@ -1,9 +1,9 @@
 {
  "extName": {
-  "message": "Dyslexia Steps Apoio à leitura"
+  "message": "Dyslexia Steps: Leitor de texto e régua de leitura"
  },
  "extDesc": {
-  "message": "Régua de leitura, espaçamento entre letras, fontes legíveis, leitura em voz alta destacada e divisão silábica em qualquer site."
+  "message": "Ler em voz alta qualquer site com palavras destacadas, régua de leitura, fonte para dislexia, espaçamento e sílabas. Grátis."
  },
  "cmdRuler": {
   "message": "Ligar ou desligar a régua de leitura"
@@ -156,5 +156,11 @@
  },
  "privacy": {
   "message": "Sem conta, sem rastreamento. As configurações ficam no seu navegador."
+ },
+ "rateLink": {
+  "message": "Avaliar esta extensão"
+ },
+ "rateDismiss": {
+  "message": "Não perguntar de novo"
  }
 }

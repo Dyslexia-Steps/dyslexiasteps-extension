@@ -1,9 +1,9 @@
 {
  "extName": {
-  "message": "Dyslexia Steps Lesehilfe"
+  "message": "Dyslexia Steps: Vorlesen & Leselineal"
  },
  "extDesc": {
-  "message": "Leselineal, Buchstabenabstand, gut lesbare Schriften, Vorlesen mit Wortmarkierung und Silbentrennung auf jeder Webseite."
+  "message": "Text vorlesen lassen mit Wortmarkierung, Leselineal, Legasthenie-Schriften, mehr Abstand und Silben auf jeder Webseite. Kostenlos."
  },
  "cmdRuler": {
   "message": "Leselineal ein- oder ausschalten"
@@ -156,5 +156,11 @@
  },
  "privacy": {
   "message": "Kein Konto, kein Tracking. Einstellungen bleiben in deinem Browser."
+ },
+ "rateLink": {
+  "message": "Erweiterung bewerten"
+ },
+ "rateDismiss": {
+  "message": "Nicht mehr fragen"
  }
 }

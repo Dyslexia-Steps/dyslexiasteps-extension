@@ -37,7 +37,7 @@ function out(target, manifest) {
   for (const [from, to] of FONTS) copyFileSync(`node_modules/${from}`, `${dir}/fonts/${to}`);
   cpSync("LICENSES", `${dir}/LICENSES`, { recursive: true });
   writeFileSync(`${dir}/manifest.json`, JSON.stringify(manifest, null, 2));
-  execSync(`cd ${dir} && zip -qr ../${pkg.name}-${target}-${pkg.version}.zip .`);
+  execSync(`cd ${dir} && zip -qr ../${pkg.name}-${target}-${pkg.version}.zip . -x "*.DS_Store"`);
 }
 
 out("chrome", base);
@@ -50,4 +50,8 @@ delete ff.gecko_id;
 delete base.gecko_id;
 out("firefox", ff);
 rmSync("dist/tmp", { recursive: true, force: true });
-console.log("built", pkg.version, "→ dist/chrome, dist/firefox + zips");
+// Source package for Firefox AMO review (bundled code → reviewers rebuild it with `npm ci && npm run build`).
+const srcZip = `dist/${pkg.name}-source-${pkg.version}.zip`;
+rmSync(srcZip, { force: true });
+execSync(`zip -qr ${srcZip} . -x "node_modules/*" "dist/*" ".git/*" "store/*" "*.DS_Store"`);
+console.log("built", pkg.version, "→ dist/chrome, dist/firefox + zips (+ source zip for AMO)");

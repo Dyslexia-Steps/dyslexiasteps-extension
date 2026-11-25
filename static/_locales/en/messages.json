@@ -1,9 +1,9 @@
 {
  "extName": {
-  "message": "Dyslexia Steps Reading Support"
+  "message": "Dyslexia Steps: Read Aloud & Reading Ruler"
  },
  "extDesc": {
-  "message": "Reading ruler, letter spacing, readable fonts, read-aloud with word highlighting and syllable breaks on any web page."
+  "message": "Read aloud any web page with word highlighting, plus a reading ruler, dyslexia-friendly fonts, spacing and syllables. Free, private."
  },
  "cmdRuler": {
   "message": "Turn the reading ruler on or off"
@@ -156,5 +156,11 @@
  },
  "privacy": {
   "message": "No account, no tracking. Settings stay in your browser."
+ },
+ "rateLink": {
+  "message": "Rate this extension"
+ },
+ "rateDismiss": {
+  "message": "Don't ask again"
  }
 }

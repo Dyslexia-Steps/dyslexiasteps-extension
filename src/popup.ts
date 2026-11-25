@@ -1,4 +1,5 @@
 import { api, DEFAULTS, loadSettings, saveSettings, type Msg, type Settings } from "./settings";
+import { markUsage, ratingDone, ratingUrl, shouldAskForRating } from "./usage";
 
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
 const SITE = "https://dyslexiasteps.com";
@@ -81,8 +82,23 @@ function voices() {
   sel.value = keep;
 }
 
+async function rating() {
+  await markUsage();
+  const url = ratingUrl();
+  if (!url || !(await shouldAskForRating())) return;
+  const link = $<HTMLAnchorElement>("rateLink");
+  link.href = url;
+  $("rating").hidden = false;
+  link.addEventListener("click", () => void ratingDone());
+  $("rateDismiss").addEventListener("click", async () => {
+    await ratingDone();
+    $("rating").hidden = true;
+  });
+}
+
 async function main() {
   i18n();
+  void rating();
   const s = await loadSettings();
   render(s);
   voices();

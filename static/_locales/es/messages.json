@@ -1,9 +1,9 @@
 {
  "extName": {
-  "message": "Dyslexia Steps Ayuda de lectura"
+  "message": "Dyslexia Steps: Texto a voz y regla de lectura"
  },
  "extDesc": {
-  "message": "Regla de lectura, espaciado de letras, fuentes legibles, lectura en voz alta resaltada y división en sílabas en cualquier web."
+  "message": "Leer en voz alta cualquier web con palabras resaltadas, regla de lectura, letra para dislexia, espaciado y sílabas. Gratis, privado."
  },
  "cmdRuler": {
   "message": "Activar o desactivar la regla de lectura"
@@ -156,5 +156,11 @@
  },
  "privacy": {
   "message": "Sin cuenta ni rastreo. Los ajustes se quedan en tu navegador."
+ },
+ "rateLink": {
+  "message": "Valorar esta extensión"
+ },
+ "rateDismiss": {
+  "message": "No volver a preguntar"
  }
 }

@@ -1,9 +1,9 @@
 {
  "extName": {
-  "message": "Dyslexia Steps Leeshulp"
+  "message": "Dyslexia Steps: Voorlezen & leesliniaal"
  },
  "extDesc": {
-  "message": "Leeslineaal, letterafstand, goed leesbare lettertypes, voorlezen met woordmarkering en lettergrepen op elke website."
+  "message": "Tekst voorlezen met woordmarkering, leesliniaal, dyslexie-lettertypes, meer afstand en lettergrepen op elke website. Gratis, privé."
  },
  "cmdRuler": {
   "message": "Leeslineaal aan of uit"
@@ -156,5 +156,11 @@
  },
  "privacy": {
   "message": "Geen account, geen tracking. Instellingen blijven in je browser."
+ },
+ "rateLink": {
+  "message": "Beoordeel deze extensie"
+ },
+ "rateDismiss": {
+  "message": "Niet meer vragen"
  }
 }

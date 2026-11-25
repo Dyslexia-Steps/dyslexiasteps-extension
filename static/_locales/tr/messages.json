@@ -1,9 +1,9 @@
 {
  "extName": {
-  "message": "Dyslexia Steps Okuma Desteği"
+  "message": "Dyslexia Steps: Sesli Okuma ve Okuma Cetveli"
  },
  "extDesc": {
-  "message": "Her sitede okuma cetveli, harf aralığı, okunaklı yazı tipleri, kelime vurgulu sesli okuma ve heceleme."
+  "message": "Her sitede metni sesli okuma ve kelime vurgusu, okuma cetveli, disleksi dostu yazı tipleri, aralık ve heceleme. Ücretsiz, gizli."
  },
  "cmdRuler": {
   "message": "Okuma cetvelini aç/kapat"
@@ -156,5 +156,11 @@
  },
  "privacy": {
   "message": "Hesap yok, takip yok. Ayarlar tarayıcında kalır."
+ },
+ "rateLink": {
+  "message": "Eklentiyi değerlendir"
+ },
+ "rateDismiss": {
+  "message": "Bir daha sorma"
  }
 }

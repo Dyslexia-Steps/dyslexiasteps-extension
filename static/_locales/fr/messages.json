@@ -1,9 +1,9 @@
 {
  "extName": {
-  "message": "Dyslexia Steps Aide à la lecture"
+  "message": "Dyslexia Steps : voix haute et règle de lecture"
  },
  "extDesc": {
-  "message": "Règle de lecture, espacement des lettres, polices lisibles, lecture à voix haute surlignée et découpage en syllabes sur tout site."
+  "message": "Lecture à voix haute surlignée, règle de lecture, police pour la dyslexie, espacement et syllabes sur tout site. Gratuit et privé."
  },
  "cmdRuler": {
   "message": "Activer ou désactiver la règle de lecture"
@@ -156,5 +156,11 @@
  },
  "privacy": {
   "message": "Sans compte, sans suivi. Les réglages restent dans votre navigateur."
+ },
+ "rateLink": {
+  "message": "Noter cette extension"
+ },
+ "rateDismiss": {
+  "message": "Ne plus demander"
  }
 }

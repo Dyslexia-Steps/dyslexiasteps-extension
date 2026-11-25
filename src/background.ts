@@ -1,4 +1,5 @@
 import { api, loadSettings, saveSettings, type Msg } from "./settings";
+import { markUsage } from "./usage";
 import { hyphenateText } from "./syllables";
 
 const SITE = "https://dyslexiasteps.com";
@@ -48,6 +49,7 @@ async function send(tabId: number, msg: Msg) {
 }
 
 api.contextMenus.onClicked.addListener((info, tab) => {
+  void markUsage();
   if (!tab?.id) return;
   if (info.menuItemId === "read") void send(tab.id, { type: "readText", text: info.selectionText ?? "" });
   if (info.menuItemId === "syllables") void send(tab.id, { type: "syllables", text: info.selectionText ?? "" });
@@ -55,6 +57,7 @@ api.contextMenus.onClicked.addListener((info, tab) => {
 });
 
 api.commands.onCommand.addListener(async (command, tab) => {
+  void markUsage();
   const t = tab ?? (await api.tabs.query({ active: true, currentWindow: true }))[0];
   if (!t?.id) return;
   if (command === "toggle-ruler") {
