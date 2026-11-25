@@ -1,0 +1,160 @@
+{
+ "extName": {
+  "message": "Dyslexia Steps Leeshulp"
+ },
+ "extDesc": {
+  "message": "Leeslineaal, letterafstand, goed leesbare lettertypes, voorlezen met woordmarkering en lettergrepen op elke website."
+ },
+ "cmdRuler": {
+  "message": "Leeslineaal aan of uit"
+ },
+ "cmdRead": {
+  "message": "Geselecteerde tekst voorlezen"
+ },
+ "cmdReader": {
+  "message": "Leesmodus openen"
+ },
+ "menuRead": {
+  "message": "Voorlezen"
+ },
+ "menuSyllables": {
+  "message": "In lettergrepen splitsen"
+ },
+ "menuReader": {
+  "message": "Leesmodus openen"
+ },
+ "panelReading": {
+  "message": "Voorlezen"
+ },
+ "pause": {
+  "message": "Pauze / afspelen"
+ },
+ "slower": {
+  "message": "Langzamer"
+ },
+ "faster": {
+  "message": "Sneller"
+ },
+ "close": {
+  "message": "Sluiten"
+ },
+ "selectFirst": {
+  "message": "Selecteer eerst tekst"
+ },
+ "listen": {
+  "message": "Luisteren"
+ },
+ "syllableNote": {
+  "message": "Bij benadering, volgens de afbreekregels ($LANG$)",
+  "placeholders": {
+   "lang": {
+    "content": "$1"
+   }
+  }
+ },
+ "noArticle": {
+  "message": "Geen artikeltekst gevonden op deze pagina"
+ },
+ "readPage": {
+  "message": "Pagina voorlezen"
+ },
+ "masterSwitch": {
+  "message": "Alles aan of uit"
+ },
+ "notAvailable": {
+  "message": "Deze pagina staat geen extensies toe (browserpagina's, de webstore). Probeer een gewone website."
+ },
+ "btnRead": {
+  "message": "Selectie voorlezen"
+ },
+ "btnSyllables": {
+  "message": "Lettergrepen"
+ },
+ "btnReader": {
+  "message": "Leesmodus"
+ },
+ "secRuler": {
+  "message": "Leeslineaal"
+ },
+ "rulerOff": {
+  "message": "Uit"
+ },
+ "rulerLine": {
+  "message": "Regel"
+ },
+ "rulerFocus": {
+  "message": "Focus"
+ },
+ "rulerHeight": {
+  "message": "Hoogte lineaal"
+ },
+ "secText": {
+  "message": "Tekst"
+ },
+ "font": {
+  "message": "Lettertype"
+ },
+ "fontPage": {
+  "message": "Lettertype van de pagina"
+ },
+ "letterSpacing": {
+  "message": "Letterafstand"
+ },
+ "wordSpacing": {
+  "message": "Woordafstand"
+ },
+ "lineHeight": {
+  "message": "Regelhoogte"
+ },
+ "mirrorLetters": {
+  "message": "b d p q kleuren"
+ },
+ "secTint": {
+  "message": "Achtergrondtint"
+ },
+ "tintNone": {
+  "message": "Geen tint"
+ },
+ "tintStrength": {
+  "message": "Sterkte"
+ },
+ "secVoice": {
+  "message": "Stem"
+ },
+ "rate": {
+  "message": "Snelheid"
+ },
+ "voice": {
+  "message": "Stem"
+ },
+ "voiceDefault": {
+  "message": "Standaard van de browser"
+ },
+ "syllableLang": {
+  "message": "Taal lettergrepen"
+ },
+ "langAuto": {
+  "message": "Taal van de pagina"
+ },
+ "allSites": {
+  "message": "Op elke website aan laten"
+ },
+ "allSitesHint": {
+  "message": "Vraagt toegang tot alle websites zodat je instellingen werken zonder dit menu te openen. Er wordt niets verstuurd."
+ },
+ "shortcuts": {
+  "message": "Sneltoetsen: Alt+Shift+R lineaal · Alt+Shift+S voorlezen · Alt+Shift+M leesmodus · Alt+↑/↓ lineaal verplaatsen"
+ },
+ "reset": {
+  "message": "Alle instellingen terugzetten"
+ },
+ "science": {
+  "message": "Comfortinstellingen. Onderzoek laat niet zien dat speciale lettertypes of kleurfilters sneller laten lezen; grotere letterafstand helpt sommige lezers."
+ },
+ "footerLink": {
+  "message": "Gratis dyslexietest en gidsen op dyslexiasteps.com"
+ },
+ "privacy": {
+  "message": "Geen account, geen tracking. Instellingen blijven in je browser."
+ }
+}

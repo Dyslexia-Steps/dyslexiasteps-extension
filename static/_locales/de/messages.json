@@ -1,0 +1,160 @@
+{
+ "extName": {
+  "message": "Dyslexia Steps Lesehilfe"
+ },
+ "extDesc": {
+  "message": "Leselineal, Buchstabenabstand, gut lesbare Schriften, Vorlesen mit Wortmarkierung und Silbentrennung auf jeder Webseite."
+ },
+ "cmdRuler": {
+  "message": "Leselineal ein- oder ausschalten"
+ },
+ "cmdRead": {
+  "message": "Markierten Text vorlesen"
+ },
+ "cmdReader": {
+  "message": "Lesemodus öffnen"
+ },
+ "menuRead": {
+  "message": "Vorlesen"
+ },
+ "menuSyllables": {
+  "message": "In Silben trennen"
+ },
+ "menuReader": {
+  "message": "Lesemodus öffnen"
+ },
+ "panelReading": {
+  "message": "Vorlesen"
+ },
+ "pause": {
+  "message": "Pause / Weiter"
+ },
+ "slower": {
+  "message": "Langsamer"
+ },
+ "faster": {
+  "message": "Schneller"
+ },
+ "close": {
+  "message": "Schließen"
+ },
+ "selectFirst": {
+  "message": "Bitte zuerst Text markieren"
+ },
+ "listen": {
+  "message": "Anhören"
+ },
+ "syllableNote": {
+  "message": "Ungefähre Trennung nach $LANG$-Silbentrennregeln",
+  "placeholders": {
+   "lang": {
+    "content": "$1"
+   }
+  }
+ },
+ "noArticle": {
+  "message": "Auf dieser Seite wurde kein Artikeltext gefunden"
+ },
+ "readPage": {
+  "message": "Seite vorlesen"
+ },
+ "masterSwitch": {
+  "message": "Alles ein- oder ausschalten"
+ },
+ "notAvailable": {
+  "message": "Diese Seite erlaubt keine Erweiterungen (Browserseiten, Web Store). Bitte eine normale Website öffnen."
+ },
+ "btnRead": {
+  "message": "Markierung vorlesen"
+ },
+ "btnSyllables": {
+  "message": "Silben"
+ },
+ "btnReader": {
+  "message": "Lesemodus"
+ },
+ "secRuler": {
+  "message": "Leselineal"
+ },
+ "rulerOff": {
+  "message": "Aus"
+ },
+ "rulerLine": {
+  "message": "Zeile"
+ },
+ "rulerFocus": {
+  "message": "Fokus"
+ },
+ "rulerHeight": {
+  "message": "Linealhöhe"
+ },
+ "secText": {
+  "message": "Text"
+ },
+ "font": {
+  "message": "Schrift"
+ },
+ "fontPage": {
+  "message": "Seitenschrift"
+ },
+ "letterSpacing": {
+  "message": "Buchstabenabstand"
+ },
+ "wordSpacing": {
+  "message": "Wortabstand"
+ },
+ "lineHeight": {
+  "message": "Zeilenhöhe"
+ },
+ "mirrorLetters": {
+  "message": "b d p q einfärben"
+ },
+ "secTint": {
+  "message": "Hintergrundtönung"
+ },
+ "tintNone": {
+  "message": "Keine Tönung"
+ },
+ "tintStrength": {
+  "message": "Stärke"
+ },
+ "secVoice": {
+  "message": "Stimme"
+ },
+ "rate": {
+  "message": "Tempo"
+ },
+ "voice": {
+  "message": "Stimme"
+ },
+ "voiceDefault": {
+  "message": "Browser-Standard"
+ },
+ "syllableLang": {
+  "message": "Silbensprache"
+ },
+ "langAuto": {
+  "message": "Sprache der Seite"
+ },
+ "allSites": {
+  "message": "Auf allen Websites aktiv lassen"
+ },
+ "allSitesHint": {
+  "message": "Fragt nach Zugriff auf alle Websites, damit die Einstellungen ohne dieses Menü greifen. Es wird nichts gesendet."
+ },
+ "shortcuts": {
+  "message": "Kürzel: Alt+Umschalt+R Lineal · Alt+Umschalt+S Vorlesen · Alt+Umschalt+M Lesemodus · Alt+↑/↓ Lineal bewegen"
+ },
+ "reset": {
+  "message": "Alle Einstellungen zurücksetzen"
+ },
+ "science": {
+  "message": "Komfort-Einstellungen. Studien zeigen nicht, dass spezielle Schriften oder Farbfolien schneller lesen lassen; größerer Buchstabenabstand hilft manchen Lesenden."
+ },
+ "footerLink": {
+  "message": "Kostenloser Legasthenie-Test und Ratgeber auf dyslexiasteps.com"
+ },
+ "privacy": {
+  "message": "Kein Konto, kein Tracking. Einstellungen bleiben in deinem Browser."
+ }
+}

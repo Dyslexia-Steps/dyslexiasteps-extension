@@ -1,0 +1,160 @@
+{
+ "extName": {
+  "message": "Dyslexia Steps Reading Support"
+ },
+ "extDesc": {
+  "message": "Reading ruler, letter spacing, readable fonts, read-aloud with word highlighting and syllable breaks on any web page."
+ },
+ "cmdRuler": {
+  "message": "Turn the reading ruler on or off"
+ },
+ "cmdRead": {
+  "message": "Read the selected text aloud"
+ },
+ "cmdReader": {
+  "message": "Open reading mode"
+ },
+ "menuRead": {
+  "message": "Read aloud"
+ },
+ "menuSyllables": {
+  "message": "Split into syllables"
+ },
+ "menuReader": {
+  "message": "Open reading mode"
+ },
+ "panelReading": {
+  "message": "Read aloud"
+ },
+ "pause": {
+  "message": "Pause / play"
+ },
+ "slower": {
+  "message": "Slower"
+ },
+ "faster": {
+  "message": "Faster"
+ },
+ "close": {
+  "message": "Close"
+ },
+ "selectFirst": {
+  "message": "Select some text first"
+ },
+ "listen": {
+  "message": "Listen"
+ },
+ "syllableNote": {
+  "message": "Approximate breaks from $LANG$ hyphenation rules",
+  "placeholders": {
+   "lang": {
+    "content": "$1"
+   }
+  }
+ },
+ "noArticle": {
+  "message": "No article text found on this page"
+ },
+ "readPage": {
+  "message": "Read the page"
+ },
+ "masterSwitch": {
+  "message": "Turn everything on or off"
+ },
+ "notAvailable": {
+  "message": "This page doesn't allow extensions (browser pages, the web store). Try a normal website."
+ },
+ "btnRead": {
+  "message": "Read selection"
+ },
+ "btnSyllables": {
+  "message": "Syllables"
+ },
+ "btnReader": {
+  "message": "Reading mode"
+ },
+ "secRuler": {
+  "message": "Reading ruler"
+ },
+ "rulerOff": {
+  "message": "Off"
+ },
+ "rulerLine": {
+  "message": "Line"
+ },
+ "rulerFocus": {
+  "message": "Focus"
+ },
+ "rulerHeight": {
+  "message": "Ruler height"
+ },
+ "secText": {
+  "message": "Text"
+ },
+ "font": {
+  "message": "Font"
+ },
+ "fontPage": {
+  "message": "Page font"
+ },
+ "letterSpacing": {
+  "message": "Letter spacing"
+ },
+ "wordSpacing": {
+  "message": "Word spacing"
+ },
+ "lineHeight": {
+  "message": "Line height"
+ },
+ "mirrorLetters": {
+  "message": "Colour b d p q"
+ },
+ "secTint": {
+  "message": "Background tint"
+ },
+ "tintNone": {
+  "message": "No tint"
+ },
+ "tintStrength": {
+  "message": "Tint strength"
+ },
+ "secVoice": {
+  "message": "Voice"
+ },
+ "rate": {
+  "message": "Speed"
+ },
+ "voice": {
+  "message": "Voice"
+ },
+ "voiceDefault": {
+  "message": "Browser default"
+ },
+ "syllableLang": {
+  "message": "Syllable language"
+ },
+ "langAuto": {
+  "message": "Page language"
+ },
+ "allSites": {
+  "message": "Keep on for every site"
+ },
+ "allSitesHint": {
+  "message": "Asks for access to all sites so settings apply without opening this menu. Nothing is sent anywhere."
+ },
+ "shortcuts": {
+  "message": "Shortcuts: Alt+Shift+R ruler · Alt+Shift+S read · Alt+Shift+M reading mode · Alt+↑/↓ move ruler"
+ },
+ "reset": {
+  "message": "Reset all settings"
+ },
+ "science": {
+  "message": "Comfort settings. Research hasn't shown that special fonts or tints speed up reading; wider letter spacing helps some readers."
+ },
+ "footerLink": {
+  "message": "Free dyslexia test and guides at dyslexiasteps.com"
+ },
+ "privacy": {
+  "message": "No account, no tracking. Settings stay in your browser."
+ }
+}

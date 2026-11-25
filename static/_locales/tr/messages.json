@@ -1,0 +1,160 @@
+{
+ "extName": {
+  "message": "Dyslexia Steps Okuma Desteği"
+ },
+ "extDesc": {
+  "message": "Her sitede okuma cetveli, harf aralığı, okunaklı yazı tipleri, kelime vurgulu sesli okuma ve heceleme."
+ },
+ "cmdRuler": {
+  "message": "Okuma cetvelini aç/kapat"
+ },
+ "cmdRead": {
+  "message": "Seçili metni sesli oku"
+ },
+ "cmdReader": {
+  "message": "Okuma modunu aç"
+ },
+ "menuRead": {
+  "message": "Sesli oku"
+ },
+ "menuSyllables": {
+  "message": "Hecelere ayır"
+ },
+ "menuReader": {
+  "message": "Okuma modunu aç"
+ },
+ "panelReading": {
+  "message": "Sesli okuma"
+ },
+ "pause": {
+  "message": "Duraklat / oynat"
+ },
+ "slower": {
+  "message": "Daha yavaş"
+ },
+ "faster": {
+  "message": "Daha hızlı"
+ },
+ "close": {
+  "message": "Kapat"
+ },
+ "selectFirst": {
+  "message": "Önce bir metin seç"
+ },
+ "listen": {
+  "message": "Dinle"
+ },
+ "syllableNote": {
+  "message": "$LANG$ heceleme kurallarına göre yaklaşık bölme",
+  "placeholders": {
+   "lang": {
+    "content": "$1"
+   }
+  }
+ },
+ "noArticle": {
+  "message": "Bu sayfada makale metni bulunamadı"
+ },
+ "readPage": {
+  "message": "Sayfayı oku"
+ },
+ "masterSwitch": {
+  "message": "Hepsini aç/kapat"
+ },
+ "notAvailable": {
+  "message": "Bu sayfa eklentilere izin vermiyor (tarayıcı sayfaları, mağaza). Normal bir site dene."
+ },
+ "btnRead": {
+  "message": "Seçimi oku"
+ },
+ "btnSyllables": {
+  "message": "Heceler"
+ },
+ "btnReader": {
+  "message": "Okuma modu"
+ },
+ "secRuler": {
+  "message": "Okuma cetveli"
+ },
+ "rulerOff": {
+  "message": "Kapalı"
+ },
+ "rulerLine": {
+  "message": "Satır"
+ },
+ "rulerFocus": {
+  "message": "Odak"
+ },
+ "rulerHeight": {
+  "message": "Cetvel yüksekliği"
+ },
+ "secText": {
+  "message": "Metin"
+ },
+ "font": {
+  "message": "Yazı tipi"
+ },
+ "fontPage": {
+  "message": "Sayfanın yazı tipi"
+ },
+ "letterSpacing": {
+  "message": "Harf aralığı"
+ },
+ "wordSpacing": {
+  "message": "Kelime aralığı"
+ },
+ "lineHeight": {
+  "message": "Satır yüksekliği"
+ },
+ "mirrorLetters": {
+  "message": "b d p q renklendir"
+ },
+ "secTint": {
+  "message": "Arka plan tonu"
+ },
+ "tintNone": {
+  "message": "Ton yok"
+ },
+ "tintStrength": {
+  "message": "Yoğunluk"
+ },
+ "secVoice": {
+  "message": "Ses"
+ },
+ "rate": {
+  "message": "Hız"
+ },
+ "voice": {
+  "message": "Ses"
+ },
+ "voiceDefault": {
+  "message": "Tarayıcı varsayılanı"
+ },
+ "syllableLang": {
+  "message": "Hece dili"
+ },
+ "langAuto": {
+  "message": "Sayfanın dili"
+ },
+ "allSites": {
+  "message": "Her sitede açık kalsın"
+ },
+ "allSitesHint": {
+  "message": "Ayarların bu menüyü açmadan çalışması için tüm sitelere erişim ister. Hiçbir veri gönderilmez."
+ },
+ "shortcuts": {
+  "message": "Kısayollar: Alt+Shift+R cetvel · Alt+Shift+S oku · Alt+Shift+M okuma modu · Alt+↑/↓ cetveli kaydır"
+ },
+ "reset": {
+  "message": "Tüm ayarları sıfırla"
+ },
+ "science": {
+  "message": "Konfor ayarları. Araştırmalar özel yazı tiplerinin ya da renkli filtrelerin okumayı hızlandırdığını göstermedi; geniş harf aralığı bazı okuyuculara yardımcı oluyor."
+ },
+ "footerLink": {
+  "message": "Ücretsiz disleksi testi ve rehberler: dyslexiasteps.com"
+ },
+ "privacy": {
+  "message": "Hesap yok, takip yok. Ayarlar tarayıcında kalır."
+ }
+}

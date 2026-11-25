@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "short_name": "Reading Support",
+  "description": "__MSG_extDesc__",
+  "version": "0.0.0",
+  "default_locale": "en",
+  "homepage_url": "https://dyslexiasteps.com/extension",
+  "icons": { "16": "icons/16.png", "32": "icons/32.png", "48": "icons/48.png", "128": "icons/128.png" },
+  "action": { "default_popup": "popup.html", "default_title": "__MSG_extName__", "default_icon": { "16": "icons/16.png", "32": "icons/32.png" } },
+  "background": { "service_worker": "background.js" },
+  "permissions": ["activeTab", "scripting", "storage", "contextMenus"],
+  "optional_host_permissions": ["<all_urls>"],
+  "web_accessible_resources": [{ "resources": ["fonts/*"], "matches": ["<all_urls>"] }],
+  "commands": {
+    "toggle-ruler": { "suggested_key": { "default": "Alt+Shift+R" }, "description": "__MSG_cmdRuler__" },
+    "read-selection": { "suggested_key": { "default": "Alt+Shift+S" }, "description": "__MSG_cmdRead__" },
+    "reader-mode": { "suggested_key": { "default": "Alt+Shift+M" }, "description": "__MSG_cmdReader__" }
+  }
+}

@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header>
+    <img src="icons/32.png" alt="" width="24" height="24" />
+    <h1 data-i18n="extName"></h1>
+    <label class="switch" data-i18n-title="masterSwitch"><input type="checkbox" id="enabled" /><span></span></label>
+  </header>
+  <p class="notice" id="notice" hidden data-i18n="notAvailable"></p>
+
+  <section class="actions">
+    <button id="read" data-i18n="btnRead"></button>
+    <button id="syl" data-i18n="btnSyllables"></button>
+    <button id="reader" data-i18n="btnReader"></button>
+  </section>
+
+  <section>
+    <h2 data-i18n="secRuler"></h2>
+    <div class="seg" id="ruler">
+      <button data-v="off" data-i18n="rulerOff"></button>
+      <button data-v="line" data-i18n="rulerLine"></button>
+      <button data-v="focus" data-i18n="rulerFocus"></button>
+    </div>
+    <label class="range"><span data-i18n="rulerHeight"></span><input type="range" id="rulerHeight" min="24" max="140" step="2" /><output></output></label>
+  </section>
+
+  <section>
+    <h2 data-i18n="secText"></h2>
+    <label class="row"><span data-i18n="font"></span>
+      <select id="font">
+        <option value="page" data-i18n="fontPage"></option>
+        <option value="lexend">Lexend</option>
+        <option value="opendyslexic">OpenDyslexic</option>
+        <option value="arial">Arial</option>
+        <option value="verdana">Verdana</option>
+      </select>
+    </label>
+    <label class="range"><span data-i18n="letterSpacing"></span><input type="range" id="letterSpacing" min="0" max="0.4" step="0.02" /><output></output></label>
+    <label class="range"><span data-i18n="wordSpacing"></span><input type="range" id="wordSpacing" min="0" max="0.6" step="0.04" /><output></output></label>
+    <label class="range"><span data-i18n="lineHeight"></span><input type="range" id="lineHeight" min="0" max="2.6" step="0.1" /><output></output></label>
+    <label class="row check"><input type="checkbox" id="mirrorLetters" /><span data-i18n="mirrorLetters"></span></label>
+  </section>
+
+  <section>
+    <h2 data-i18n="secTint"></h2>
+    <div class="swatches" id="tint">
+      <button data-v="none" data-i18n-title="tintNone" class="none">∅</button>
+      <button data-v="cream" style="background:#f5e6b8"></button>
+      <button data-v="blue" style="background:#b9d7f0"></button>
+      <button data-v="green" style="background:#c4e6c1"></button>
+      <button data-v="rose" style="background:#f2c4cf"></button>
+      <button data-v="grey" style="background:#c9c9c9"></button>
+    </div>
+    <label class="range"><span data-i18n="tintStrength"></span><input type="range" id="tintStrength" min="0.05" max="0.5" step="0.01" /><output></output></label>
+  </section>
+
+  <section>
+    <h2 data-i18n="secVoice"></h2>
+    <label class="range"><span data-i18n="rate"></span><input type="range" id="rate" min="0.5" max="1.6" step="0.1" /><output></output></label>
+    <label class="row"><span data-i18n="voice"></span><select id="voice"><option value="" data-i18n="voiceDefault"></option></select></label>
+    <label class="row"><span data-i18n="syllableLang"></span>
+      <select id="syllableLang">
+        <option value="auto" data-i18n="langAuto"></option>
+        <option value="en">English</option><option value="de">Deutsch</option><option value="fr">Français</option>
+        <option value="es">Español</option><option value="nl">Nederlands</option><option value="pt">Português</option><option value="tr">Türkçe</option>
+      </select>
+    </label>
+  </section>
+
+  <section>
+    <label class="row check"><input type="checkbox" id="allSites" /><span data-i18n="allSites"></span></label>
+    <p class="hint" data-i18n="allSitesHint"></p>
+    <p class="hint" data-i18n="shortcuts"></p>
+    <button id="reset" class="link" data-i18n="reset"></button>
+  </section>
+
+  <footer>
+    <p class="science" data-i18n="science"></p>
+    <a id="site" target="_blank" rel="noopener" data-i18n="footerLink"></a>
+    <p class="privacy" data-i18n="privacy"></p>
+  </footer>
+  <script src="popup.js"></script>
+</body>
+</html>

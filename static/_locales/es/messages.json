@@ -1,0 +1,160 @@
+{
+ "extName": {
+  "message": "Dyslexia Steps Ayuda de lectura"
+ },
+ "extDesc": {
+  "message": "Regla de lectura, espaciado de letras, fuentes legibles, lectura en voz alta resaltada y división en sílabas en cualquier web."
+ },
+ "cmdRuler": {
+  "message": "Activar o desactivar la regla de lectura"
+ },
+ "cmdRead": {
+  "message": "Leer en voz alta el texto seleccionado"
+ },
+ "cmdReader": {
+  "message": "Abrir el modo lectura"
+ },
+ "menuRead": {
+  "message": "Leer en voz alta"
+ },
+ "menuSyllables": {
+  "message": "Dividir en sílabas"
+ },
+ "menuReader": {
+  "message": "Abrir el modo lectura"
+ },
+ "panelReading": {
+  "message": "Lectura"
+ },
+ "pause": {
+  "message": "Pausa / reproducir"
+ },
+ "slower": {
+  "message": "Más lento"
+ },
+ "faster": {
+  "message": "Más rápido"
+ },
+ "close": {
+  "message": "Cerrar"
+ },
+ "selectFirst": {
+  "message": "Primero selecciona un texto"
+ },
+ "listen": {
+  "message": "Escuchar"
+ },
+ "syllableNote": {
+  "message": "División aproximada según las reglas de guionado ($LANG$)",
+  "placeholders": {
+   "lang": {
+    "content": "$1"
+   }
+  }
+ },
+ "noArticle": {
+  "message": "No se encontró texto de artículo en esta página"
+ },
+ "readPage": {
+  "message": "Leer la página"
+ },
+ "masterSwitch": {
+  "message": "Activar o desactivar todo"
+ },
+ "notAvailable": {
+  "message": "Esta página no permite extensiones (páginas del navegador, la tienda). Prueba en una web normal."
+ },
+ "btnRead": {
+  "message": "Leer selección"
+ },
+ "btnSyllables": {
+  "message": "Sílabas"
+ },
+ "btnReader": {
+  "message": "Modo lectura"
+ },
+ "secRuler": {
+  "message": "Regla de lectura"
+ },
+ "rulerOff": {
+  "message": "No"
+ },
+ "rulerLine": {
+  "message": "Línea"
+ },
+ "rulerFocus": {
+  "message": "Foco"
+ },
+ "rulerHeight": {
+  "message": "Altura de la regla"
+ },
+ "secText": {
+  "message": "Texto"
+ },
+ "font": {
+  "message": "Fuente"
+ },
+ "fontPage": {
+  "message": "Fuente de la página"
+ },
+ "letterSpacing": {
+  "message": "Espaciado de letras"
+ },
+ "wordSpacing": {
+  "message": "Espaciado de palabras"
+ },
+ "lineHeight": {
+  "message": "Interlineado"
+ },
+ "mirrorLetters": {
+  "message": "Colorear b d p q"
+ },
+ "secTint": {
+  "message": "Tono de fondo"
+ },
+ "tintNone": {
+  "message": "Sin tono"
+ },
+ "tintStrength": {
+  "message": "Intensidad"
+ },
+ "secVoice": {
+  "message": "Voz"
+ },
+ "rate": {
+  "message": "Velocidad"
+ },
+ "voice": {
+  "message": "Voz"
+ },
+ "voiceDefault": {
+  "message": "Predeterminada del navegador"
+ },
+ "syllableLang": {
+  "message": "Idioma de las sílabas"
+ },
+ "langAuto": {
+  "message": "Idioma de la página"
+ },
+ "allSites": {
+  "message": "Mantener activo en todas las webs"
+ },
+ "allSitesHint": {
+  "message": "Pide acceso a todas las webs para aplicar los ajustes sin abrir este menú. No se envía nada."
+ },
+ "shortcuts": {
+  "message": "Atajos: Alt+Mayús+R regla · Alt+Mayús+S leer · Alt+Mayús+M modo lectura · Alt+↑/↓ mover la regla"
+ },
+ "reset": {
+  "message": "Restablecer ajustes"
+ },
+ "science": {
+  "message": "Ajustes de comodidad. La investigación no ha demostrado que fuentes o filtros de color aceleren la lectura; un espaciado mayor ayuda a algunos lectores."
+ },
+ "footerLink": {
+  "message": "Test de dislexia gratis y guías en dyslexiasteps.com"
+ },
+ "privacy": {
+  "message": "Sin cuenta ni rastreo. Los ajustes se quedan en tu navegador."
+ }
+}

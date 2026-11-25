@@ -1,0 +1,33 @@
+export default async ({ sw, page, tabId, shot, ctx }) => {
+  const set = (s) => sw.evaluate(async (s) => chrome.storage.sync.set({ settings: s }), s);
+  const msg = (m) => sw.evaluate(async ([id, m]) => chrome.tabs.sendMessage(id, m), [tabId, m]);
+  await set({ ruler: "line", font: "lexend", letterSpacing: 0.12, wordSpacing: 0.16, lineHeight: 1.9, tint: "cream", tintStrength: 0.2, mirrorLetters: true });
+  await page.mouse.move(400, 330);
+  await page.waitForTimeout(800);
+  await shot("1-settings");
+  console.log("font:", await page.evaluate(() => getComputedStyle(document.querySelector("p")).fontFamily), "ls:", await page.evaluate(() => getComputedStyle(document.querySelector("p")).letterSpacing));
+  console.log("mirror spans:", await page.evaluate(() => document.querySelectorAll('span[data-ds-rs="m"]').length));
+  await set({ ruler: "focus", font: "page", letterSpacing: 0, wordSpacing: 0, lineHeight: 0, tint: "none", mirrorLetters: false });
+  await page.waitForTimeout(500);
+  console.log("mirror spans after off:", await page.evaluate(() => document.querySelectorAll('span[data-ds-rs="m"]').length));
+  await page.mouse.move(400, 420);
+  await shot("2-focus");
+  await set({ ruler: "off" });
+  // select a word and split
+  await page.evaluate(() => { const p = [...document.querySelectorAll("p")].find(p => p.textContent.length > 200); const r = document.createRange(); r.selectNodeContents(p); getSelection().removeAllRanges(); getSelection().addRange(r); p.scrollIntoView(); });
+  await msg({ type: "syllables", text: "Dyslexia affects reading, spelling and understanding information" });
+  await page.waitForTimeout(600);
+  await shot("3-syllables");
+  await msg({ type: "readSelection" });
+  await page.waitForTimeout(800);
+  await shot("4-readaloud");
+  await msg({ type: "readerMode" });
+  await page.waitForTimeout(800);
+  await shot("5-reader");
+  const p = await ctx.newPage();
+  await p.setViewportSize({ width: 340, height: 900 });
+  const id = sw.url().split("/")[2];
+  await p.goto(`chrome-extension://${id}/popup.html`);
+  await p.waitForTimeout(600);
+  await p.screenshot({ path: "/tmp/ext-test/dys-6-popup.png", fullPage: true });
+};
